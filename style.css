@@ -27,16 +27,18 @@ header h1 {
   color: #3e3e3e;
 }
 
-.btn-success {
+.btn-buy {
   width: 170px;
   height: 60px;
   background: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);
-  border: 0;
-  border-radius: 10px;
 }
 
 /* Woman Jacket Section */
-.jacket-items h2 {
+.products-items .row {
+  max-height: 550px;
+}
+
+.products-items h2 {
   font-size: 3rem;
   font-weight: 400;
   font-family: "Bebas Neue", cursive;
@@ -44,15 +46,10 @@ header h1 {
   padding: 50px 0px 20px;
 }
 
-.jacket-items {
-  background-color: #e5e5e5;
-}
-
-.card {
+.products-items .card {
   background: #ffffff;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
-  border: none;
 }
 
 .card img {
