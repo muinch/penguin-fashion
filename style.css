@@ -16,6 +16,7 @@ header h1 {
   font-family: "Bebas Neue", cursive;
   font-size: 5rem;
   font-weight: 400;
+  color: #363958;
 }
 
 .highlight {
@@ -32,6 +33,15 @@ header h1 {
   background: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);
   border: 0;
   border-radius: 10px;
+}
+
+/* Woman Jacket Section */
+.jacket-items h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+  padding: 50px 0px 20px;
 }
 
 .jacket-items {
